@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Parallax srolling practice_r08342007</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/shadow.css">
+
+
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=plxaCCbJXkaGm2nmNGFwDW3k0qDshtC1S5WLVguG_U0SMIDCI4_weTLh10ArDm9_EgeYdFP9s4qZy2k6XimfHCEGnGZ01kios1t80Etw_xlPfN2Nw4_bZChrNWweFeb5" charset="UTF-8"></script>
+    <style>
+        #div1 {
+            background-image: url("assets/mirahq1.png");
+        }
+
+        #div2 {
+            background-image: url("assets/mirahq2.png");
+        }
+
+        #div3 {
+            background-image: url("assets/mirahq3.png");
+        }
+
+        #div4 {
+            background-image: url("assets/mirahq4.png");
+        }
+
+        #div5 {
+            background-image: url("assets/purplekilled.png");
+        }
+
+        #div6 {
+            background-image: url("assets/mirahq5.png");
+        }
+
+        #div1, #div2, #div3, #div4, #div5, #div6 {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color:black;height:100vh;">
+    </div>
+    <div id="div1" class="container-fluid innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-top=60 data-top2=20 data-left=0 data-left2=75 data-width=5 data-width2=24 src="assets/ship1.png" style="position:absolute;width:5%;top:15%;left:5%;filter:grayscale(.3) blur(0px);">
+        <img class="scrollable dropshadow1" data-top=0 data-top2=100 data-left=70 data-left2=45 data-width=15 data-width2=30 src="assets/ship2.png" style="position:absolute;width:5%;top:10%;left:80%;">
+
+    </div>
+    <div class="container-fluid" style="background-color:rgba(0,0,0,0.5);min-height: 1000px"></div>
+
+    <div class="container-fluid" style="background-color:darkgrey;min-height:300px">
+        <img src="assets/shhhhh.png" style="position:center" width="100%">
+    </div>
+    
+    <div class="container-fluid" style="background-color:rgba(0,0,0,0.5);min-height: 500px"></div>
+    
+    <div class="container-fluid" style="background-color:darkgrey;min-height:300px">
+        <img src="assets/crewmate.png" style="position:center" width="100%">
+    </div>
+    
+    
+    <div class="container-fluid" style="background-color:rgba(0,0,0,0.5);min-height: 1000px"></div>
+    
+    <div id="div2" class="container-fluid innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-top=5 data-top2=72 data-left=0 data-left2=30 data-width=8 data-width2=14 src="assets/cyan3.png" style="position:absolute;width:8%;top:0%;left:0%;filter:grayscale(.3) blur(0px);">
+        <img class="scrollable dropshadow1" data-left=0 data-left2=15 src="assets/white1.png" style="position:sticky;width:10%;top:35%;left:5%;">
+    </div>
+
+
+    <div class="container-fluid" style="background-color:darkgrey;min-height: 1000px"></div>
+
+    <div id="div3" class="container-fluid innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-top=85 data-top2=70 data-left=100 data-left2=40 src="assets/purple1.png" style="position:absolute;width:10%;top:85%;left:100%;">
+        <img class="scrollable dropshadow1" data-top=85 data-top2=80 data-left=-30 data-left2=50 src="assets/blue1.png" style="position:absolute;width:9%;top:85%;left:0%;">
+    </div>
+
+
+    <div class="container-fluid" style="background-color:darkgrey;min-height:1000px"></div>
+
+
+    <div id="div4" class="container-fluid innershadow1" style="background-color:black;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=100 data-left2=38 data-top=25 data-top2=75 src="assets/purple1.png" style="position:absolute;width:15%;top:25%;left:100%;">
+        <img class="scrollable dropshadow1" data-left=0 data-left2=30 data-top=25 data-top2=75 src="assets/blue1.png" style="position:absolute;width:15%;top:25%;left:0%;">
+    </div>
+
+    <div id="div5" class="innershadow1" style="background-color:#b30000;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=0 data-left2=75 data-top=25 data-top2=75 src="assets/blue2.png" style="position:absolute;width:15%;top:25%;left:0%;">
+    </div>
+
+    <div class="container-fluid" style="background-color:darkgrey;min-height:300px">
+        <img src="assets/cyan4.jpg" style="position:center" width="100%">
+    </div>
+
+
+    <div id="div6" class="container-fluid innershadow1" style="background-color:#b30000;height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=80 data-left2=60 data-top=40 data-top2=70 src="assets/cyan2.png" style="position:absolute;width:25%;top:55%;left:35%;">
+    </div>
+    
+    <div class="container-fluid" style="background-color:darkgrey;min-height:500px">
+        <img src="assets/victory.png" style="position:center" width="100%">
+    </div>
+    <div class="container-fluid" style="background-color:darkgrey;min-height:500px">
+        <img src="assets/amongusbig.jpeg" style="position:center" width="100%">
+    </div>
+
+
+
+    <script>
+        $(document).ready(function() {
+            var winh = $(window).height();
+            $(window).scroll(function() {
+                var scrolled = $(window).scrollTop();
+                $(".scrollable").each(function() {
+                    var parent_pos = $(this).parent().offset().top;
+                    var next_pos = $(this).parent().next().offset().top;
+                    var parent_height = $(this).parent().height();
+                    var parent_scrolled = scrolled - $(this).parent().offset().top;
+                    if (parent_scrolled > 0 && scrolled < next_pos - winh) {
+
+                        if ($(this).attr("data-left")) {
+                            $(this).css('left', (($(this).data('left2') - $(this).data('left')) * parent_scrolled / winh + $(this).data('left')) + '%');
+                        }
+                        if ($(this).attr("data-top")) {
+                            $(this).css('top', (($(this).data('top2') - $(this).data('top')) * parent_scrolled / winh + $(this).data('top')) + '%');
+                        }
+                        if ($(this).attr("data-width")) {
+                            $(this).css('width', (($(this).data('width2') - $(this).data('width')) * parent_scrolled / winh + $(this).data('width')) + '%');
+                        }
+                    }
+                });
+            }); //end of win scroll
+        });
+    </script>
+</body></html>
